@@ -1,0 +1,31 @@
+body.darkbg {
+    background: url('../img/dark_embroidery.png');
+}
+.content{
+    color: ghostwhite;;
+}
+div.row div.large-12,
+div.row div.medium-12,
+div.medium-12.columns div.small-12.columns {
+    background: url('../img/dark_embroidery.png');
+}
+.menu-text,
+.sectionhead,
+div.medium-12.columns div.small-12.columns {
+    color: darkseagreen;
+}
+.link a,
+div.medium-12.columns ul.thumbs li.content,
+body.resume div.medium-12.columns div.small-12.columns.nobg,
+div.small-6.columns p,
+div.medium-12.columns div.small-12.columns.desc ul li {
+    color: ghostwhite;
+}
+.menu>li:not(.menu-text)>a:hover {
+    opacity: .7;
+}
+body.home div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="index.html"],
+body.portfolio div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p4-portfolio.html"],
+body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p2-resume.html"] {
+    background: url('../img/dark_embroidery.png');
+}

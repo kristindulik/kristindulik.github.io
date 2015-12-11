@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8" />
+    <title>Kristin Dulik</title>
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/waves.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto: 100,300,400,500' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/dark.css" id="darktheme" disabled="disabled">
+</head>
+<body class="home">
+    
+<!-- Base grid from Foundation 5 -->
+<!--    Basic Layout from Aaron in class - LOVE the layout itself! -->
+<!-- Button effects from http://fian.my.id/Waves/ -->
+    
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="vertical medium-horizontal menu">
+                <li class="menu-text">Kristin Dulik</li>
+                <li><a class="flat-buttons" href="index.html">Home</a></li>
+                <li><a class="flat-buttons" href="p2-resume.html">Resume</a></li>
+                <li><a class="flat-buttons" href="p4-portfolio.html">Portfolio</a></li>
+                <li><a class="flat-buttons" href="contact-form.html">Contact Me</a></li>
+                <li>
+                    <p id="colored-button" class="text-center">
+                        <button class="btn float-button-light light">Light</button>
+                    </p>
+                </li>
+                <li>
+                    <p id="colored-button" class="text-center">
+                        <button class="btn float-button-light dark">Dark</button>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="medium-12 columns">
+            <div class="medium-6 columns">
+                <p class="sectionhead">School</p>
+                <p class="content">Hello! My name is Kristin Dulik and I am a recent graduate of Eastern Washington University. I pursued a Bachelors of Arts in Visual Communication Design with a minor in Business Administration. I have always been a creative person. It's never been uncommon for me to think outside the box.</p>
+                <p class="sectionhead">Professional  Objectives</p>
+                <p class="content">It has been achieved thus far! I have accepted an internship with Southwest Airlines in the marketing department. I have been working towards this for the past two years.</p>
+                <p class="sectionhead">Links</p>
+                <ul>
+                    <li class="link">
+                        <img src="img/github.png" alt="" class="linkimage" /><a href="https://github.com/kristindulik"> GitHub</a>
+                    </li>
+                    <li class="link">
+                        <img src="img/linkedin.png" alt="" class="linkimage" />
+                        <a href="https://www.linkedin.com/in/kristindulik"> LinkedIn</a></li>
+                    <li class="link">
+                        <img src="img/behance.png" alt="" class="linkimage" />
+                        <a href="https://www.behance.net/dulikkristin">Behance</a>
+                    </li>
+
+                </ul>
+            </div>
+        <div class="medium-6 columns">
+            <img src="img/%20me.jpg" class="float-right" alt=""/>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/waves.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript">
+        Waves.attach('.flat-buttons', ['waves-button']);
+        Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
+        Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+    background: url("../img/new_year_background.png");
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: ghostwhite;
+}
+a {
+    color: dimgray;
+}
+a:hover {
+    opacity: .7;
+}
+div.row {
+    margin-bottom: 50px;
+}
+div.row div.large-12 {
+    background: url("../img/new_year_background.png");
+    margin-top: 50px;
+    padding: 20px 10px;
+}
+.menu-text {
+    font-weight: 500;
+    font-size: 2em;
+    color: darkseagreen;
+}
+div.row div.medium-12 {
+    background: url("../img/new_year_background.png");
+    padding-bottom: 50px;
+}
+div.row div.medium-12 {
+    padding-top: 50px;
+}
+.sectionhead {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-size: 1em;
+    color: darkseagreen;
+}
+.content {
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 1em;
+    max-width: 40em;
+    color: dimgray;
+}
+.link {
+    padding-top: .313em;
+}
+.linkimage {
+    width: 5%;
+    height: auto;
+}
+li.link {
+    list-style: none;
+}
+.link a {
+    color: dimgray;
+}
+body.resume ul:not(.menu) {
+    padding-left: 30px;
+}
+img[src="img/me.jpg"] {
+    height: 590px;
+    border-radius: 5&;
+}
+.top-bar {
+    padding-top: 0px;
+}
+.top-bar,
+.top-bar ul {
+    background: none;
+}
+.menu>li:not(.menu-text)>a {
+    color: dimgray;
+}
+.menu>li:not(.menu-text)>a:hover {
+    color: black;
+}
+/* Resume */
+div.medium-12.columns div.small-12.columns {
+    color: dimgray;
+    margin-top: 10px;
+}
+div.medium-12.columns div.small-12.columns:first-child {
+    margin-top: 0px;
+}
+div.medium-12.columns div.small-12.columns p {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-size: 1em;
+    color: darkseagreen;
+}
+div.small-6.columns p {
+    font-size: 15px;
+    max-width: 40em;
+    color: dimgray;
+    margin-bottom: 0px;
+}
+div.small-6.columns p:nth-child(2) {
+    font-style: italic;
+}
+div.small-6.columns:nth-child(3),
+.rightthis {
+    text-align: right;
+}
+div.medium-12.columns div.small-12.columns.desc {
+    background: none;
+}
+div.medium-12.columns div.small-12.columns.desc ul li {
+    font-size: .9em;
+    color: darkseagreen;
+}
+body.resume div.medium-12.columns{
+    padding-bottom: 0px;;
+}
+body.resume div.medium-12.columns:last-child {
+    padding-bottom: 50px;
+    /*margin-bottom: 50px;*/
+}
+body.resume div.medium-12.columns:nth-child(3),
+body.resume div.medium-12.columns:nth-child(4),
+body.resume div.medium-12.columns:nth-child(5),
+body.resume div.medium-12.columns:nth-child(6) {
+    padding-top: 10px;
+}
+body.resume div.medium-12.columns:nth-child(2) {
+    padding-bottom: 0px;
+}
+body.resume div.medium-12.columns div.small-12.columns.nobg {
+    background: none;
+    color: dimgray;
+    margin-top: 5px;
+}
+body.resume div.medium-12.columns div.small-12.columns.nobg p {
+    margin-top: 0px;
+}
+body.resume div.medium-12.columns div.small-12.columns.nobg p:last-child {
+    margin-bottom: 0px;
+}
+body.resume div.medium-12.columns div.small-12.columns.nobg p {
+    font-size: 1em;
+}
+/* Portfolio */
+div.medium-12.columns ul.thumbs li.content .close {
+    color: #644c4c;
+    font-size: 3em;
+    padding-right: 10px;
+}
+div.medium-12.columns ul.thumbs li.content p {
+    margin-bottom: 5px;
+}
+div.medium-12.columns ul.thumbs {
+    list-style-type: none;
+}
+div.medium-12.columns ul.thumbs li a.thumbnail span.active-arrow {
+    border-bottom: 25px solid hsla(44,7%,57%,.4);
+}
+div.medium-12.columns ul.thumbs li {
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+li.content p {
+    padding-right: 10px;
+}
+body.home div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="index.html"],
+body.portfolio div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p4-portfolio.html"],
+body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p2-resume.html"],
+body.contact div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="contact-form.html"] {
+}
+.menu>li:not(.menu-text)>a:hover {
+    opacity: .7;
+}
+div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a:last-child {
+    margin-right: 10px;
+}
+/* Light/Dark buttons */
+button.btn.float-button-light {
+    height: 30px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#colored-button .btn.dark {
+    color: ghostwhite;
+}
+#colored-button .btn.light {
+    color: ghostwhite;
+}
+#colored-button button.dark,
+#colored-button button.dark:hover {
+    background: dimgray;
+}
+#colored-button button.light,
+#colored-button button.light:hover {
+    background: darkseagreen;
+}
+.waves-effect.waves-light .waves-ripple {
+    background: rgba(192, 192, 192, 0.8);
+}
+.waves-float {
+    ox-shadow: 0 1px 1.5px 1px rgba(255,255,255,.12);
+}
+#colored-button a,
+#colored-button a:hover { }
